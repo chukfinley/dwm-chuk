@@ -15,6 +15,11 @@ Installation
 Edit config.mk to match your local setup (dwm is installed into
 the /usr/local namespace by default).
 
+Debian Install Packages
+
+    sudo apt install libxcb-res0-dev libx11-xcb-dev libx11-dev
+
+
 Afterwards enter the following command to build and install dwm (if
 necessary as root):
 
